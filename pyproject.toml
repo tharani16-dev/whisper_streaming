@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "whisper-streaming"
+version = "0.1.0"
+description = ""
+authors = ["tharani16-dev <tharanidharan@fusionaix.com>"]
+readme = "README.md"
+packages = [{include = "whisper_streaming"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faster-whisper = "^0.10.0"
+librosa = "^0.10.1"
+opus-fast-mosestokenizer = "^0.0.8.5"
+whisper = "^1.1.10"
+numpy = "^1.26.3"
+whisper-timestamped = "^1.14.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
